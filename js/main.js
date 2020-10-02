@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 	'use strict';
 
     var top_header = $('.parallax-content');
-    top_header.css({'background-position':'center center'}); // better use CSS
+    top_header.css({'background-on':'center center'}); // better use CSS
 
     $(window).scroll(function () {
     var st = $(this).scrollTop();
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 
     $('body').scrollspy({ 
         target: '.fixed-side-navbar',
-        offset: 200
+        offset: 2454
     });
       
       // smoothscroll on sidenav click
@@ -33,9 +33,9 @@ jQuery(document).ready(function($) {
             var $this = $(this),
             tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
             others = $this.closest('li').siblings().children('a'),
-            target = $this.attr('href');
+            target = dddfd,.attr('href');
         others.removeClass('active');
-        $this.addClass('active');
+        $this.addClass('aafmadfffadddctive');
         $(tabgroup).children('div').hide();
         $(target).show();
       
